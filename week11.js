@@ -45,6 +45,7 @@ function newGame() {
     xturn = true;
     oturn = false;
     $('.screen').html('X Goes First'); 
+    win = 0;
 }
 
 
