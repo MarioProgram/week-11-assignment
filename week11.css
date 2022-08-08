@@ -57,3 +57,6 @@ body {
 .com {
     z-index: 3;
 }
+.btn-cus {
+    width: fit-content;
+}
