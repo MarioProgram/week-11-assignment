@@ -15,7 +15,7 @@ let clickable = true //added so I can set to false when the game is over to prev
 //used to change turns
 let xturn = true;
 let oturn = false;
-let win; //used to check for winner
+let win = 0; //used to check for winner
 
 
 //used to keep track of which player has chosen which option
@@ -126,7 +126,7 @@ class Score {
 class Cpu {
     select() { 
         let r
-        if (options.length === 0) { //used just in case there are no more options to prevent bug
+        if (options.length === 0 || win != 0) { //used just in case there are no more options to prevent bug
             return
         }
         clickable = false; //turns off clickable to prvent bug that allowed you to click another option while computer chooses their option
