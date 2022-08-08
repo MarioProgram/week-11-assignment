@@ -1,0 +1,59 @@
+.h-cus {
+    height: 175px;
+}
+.hover-style:hover {
+    opacity: .75;
+    transition: .2s ease-in;
+    background-color: #362E2D;
+    cursor: pointer;
+  }
+h1 {
+    font-size: 100px;
+    font-family: Comfortaa;
+    color: #362E2D;
+}
+body {
+    border: 10px solid black;
+    background: rgb(170,172,161);
+    background: linear-gradient(90deg, rgba(170,172,161,1) 0%, rgba(124,134,133,1) 100%);
+}
+.adder {
+    font-family: Comfortaa;
+    color: #362E2D;
+}
+#turn {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.cus-o {
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+    color: #E3311D;
+    font-family: Prompt;
+}
+.cus-x {
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    text-shadow: 2px 2px #AAACA1;
+    color: #362E2D;
+    font-family: Dosis;
+    font-weight: 600;
+}
+
+.highlight {
+    background-color: black;
+    opacity: .5;
+}
+.com {
+    z-index: 3;
+}
